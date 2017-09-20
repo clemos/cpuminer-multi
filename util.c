@@ -42,6 +42,7 @@
 #endif
 
 #include "miner.h"
+#include "json-api.h"
 #include "elist.h"
 
 extern pthread_mutex_t stats_lock;

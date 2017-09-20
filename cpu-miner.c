@@ -23,10 +23,6 @@
 #include <time.h>
 #include <signal.h>
 
-#include <curl/curl.h>
-#include <jansson.h>
-#include <openssl/sha.h>
-
 #ifdef _MSC_VER
 #include <windows.h>
 #include <stdint.h>
@@ -46,6 +42,7 @@
 #endif
 
 #include "miner.h"
+#include "json-api.h"
 
 #ifdef WIN32
 #include "compat/winansi.h"
